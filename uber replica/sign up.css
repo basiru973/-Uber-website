@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: 20% 80%;
+
+}
+.header{
+    background-color: black;
+    padding: 1%;
+}
+.body{
+    background-color: #fff;
+}
+.form{
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+#first{
+    padding: 10px 100px 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#second{
+    padding: 10px 130px 10px 110px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+#third{
+    padding: 10px 80px 10px 75px;
+    border: 1px solid rgb(214, 208, 208);
+    background-color:rgb(214, 208, 208);
+    border-radius: 10px;
+    font-size: 14px;
+}

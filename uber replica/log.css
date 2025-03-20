@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: 10% auto auto auto auto auto auto;
+}
+.header{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: #fff;
+}
+.header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    margin-top: 130;
+    align-items: center;
+    
+  }
+  .right{
+    padding-left: 30vh;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .right a{
+    
+    justify-content: space-evenly;
+    gap: 10vh;
+    color: #fff;
+    padding: 8px;
+
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+#stick{
+: 100px;
+padding-top: 52px;
+}
+
+  .right a:hover{
+    background-color: grey;
+    border-radius: 20px;
+  }
+.left{
+  padding-left: 60vh;
+  justify-content: space-around;
+  gap: 10px;
+}
+.left a{
+    justify-content: space-evenly;
+    gap: 10vh;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .left a:hover{
+    background-color: grey;
+    border-radius: 20px;
+  }
+  .left a button{
+    border-radius: 20px;
+    padding: 8px;
+  }
+  
+  .menu-btn {
+    outline: none;
+    border: none;
+    background: none;
+    padding: ;
+    color: #fff;
+   font-size: 16px;
+
+}
+a:hover{
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.menu-btn:hover{
+  background-color: grey;
+  border-radius: 20px;
+}
+.list{
+    position: absolute;
+    margin-top: 340px;
+    margin-right: 200px;
+    display:none;
+    background-color:  #f5f1f1;;
+    border: 3px solid #9b9999;
+    box-shadow: 20px;
+  }
+  .list a{
+    font-size: 20px;
+text-decoration: none;
+background-color: ;
+color: black;
+gap: 20px;
+
+  }
+.list a:hover{
+background-color: white;
+padding: 2px 50px 2px 50px;
+}
+
+/* body */
+
+
+.body{
+    display: flex;
+   column-gap: 10%;
+   margin-left: 15%;
+   margin-top: 10%;
+   font-size: 30px;
+}
+.body a{
+  text-decoration: none;
+  color: black;
+}

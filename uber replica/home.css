@@ -1,0 +1,361 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: 10% auto auto auto auto auto auto;
+}
+.header{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: #fff;
+}
+.header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    margin-top: 130;
+    align-items: center;
+    
+  }
+  .right{
+    padding-left: 30vh;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .right a{
+    
+    justify-content: space-evenly;
+    gap: 10vh;
+    color: #fff;
+    padding: 8px;
+
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+#stick{
+
+padding-top: 52px;
+}
+
+  .right a:hover{
+    background-color: grey;
+    border-radius: 20px;
+  }
+.left{
+  padding-left: 60vh;
+  justify-content: space-around;
+  gap: 10px;
+}
+.left a{
+    justify-content: space-evenly;
+    gap: 10vh;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .left a:hover{
+    background-color: grey;
+    border-radius: 20px;
+  }
+  .left a button{
+    border-radius: 20px;
+    padding: 8px;
+  }
+  
+  .menu-btn {
+    outline: none;
+    border: none;
+    background: none;
+    
+    color: #fff;
+   font-size: 16px;
+
+}
+a:hover{
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.menu-btn:hover{
+  background-color: grey;
+  border-radius: 20px;
+}
+.list{
+    position: absolute;
+    margin-top: 340px;
+    margin-right: 200px;
+    display:none;
+    background-color:  #f5f1f1;;
+    border: 3px solid #9b9999;
+    box-shadow: 20px;
+  }
+  .list a{
+    font-size: 20px;
+text-decoration: none;
+
+color: black;
+gap: 20px;
+
+  }
+.list a:hover{
+background-color: white;
+padding: 2px 50px 2px 50px;
+}
+
+  
+  /* <!-- section 1 body --> */
+
+  .sec1{
+    display: flex;
+    justify-content: space-around;
+  }
+  .hagu{
+    margin-right: 20px;
+    margin-top: 50px;
+    
+  }
+  
+  .hagu h1{
+font-size: 50px;
+  }
+  .dama{
+  margin-right: 50px;
+  margin-top: 70px;
+}
+  .icons{
+    display: flex;
+    justify-content: space-around;
+  }
+  #pickup{
+    border: none;
+    padding: 10px 100px 10px 0px;
+    background-color: rgb(240, 238, 235);
+    border-radius: 10px;
+  }
+  #Today{
+    border: none;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(240, 238, 235);
+    border-radius: 10px;
+  }
+
+  #see{
+    border: none;
+    padding: 20px 30px 20px 30px;
+    background-color: black;
+     color: #fff;
+     text-align: center;
+     font-size: 15px;
+  border-radius: 20px;
+  }
+  #see a{
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  }
+  
+  #log{
+    border: none;
+    text-align: center;
+     font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(240, 238, 235);
+  border-radius: 20px;
+  border-bottom: 3px;
+  }
+  #log a{
+    color: black;
+    border: none;
+    text-decoration: none;
+  }
+  
+  /* section 2 body */
+
+
+  #Suggestion{
+
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  .sug{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(240, 238, 235);
+    padding-bottom: 10px;
+  }
+  .Courier{
+    display: flex;
+    background-color: rgb(240, 238, 235);
+  }
+  .Reseve{
+    display: flex;
+    background-color: rgb(240, 238, 235);
+  }
+  .Ride{
+    display: flex;
+    background-color: rgb(240, 238, 235);
+  }
+  #Details{
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 8px;
+  }
+  .activity{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .account h1{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .account{
+    margin-top: 60px;
+  }
+
+  .activity div img{
+   margin-top: 70px;
+  }
+  .log{
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+  }
+  .log a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+
+  }
+  .account a{
+    text-decoration: none;
+   
+  }
+
+  /* section 4 body */
+
+#later{
+  margin-left: 40px;
+  
+}
+  .plan{
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  #plan{
+    background-image: url("Screenshot_2025-02-27-14-47-11-00.png");
+    opacity: 200px;
+    color: #fff;
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ border: 1px solid #fff ;
+ padding: 50px 400px 80px  100px;
+ border-radius: 10px;
+  }
+  .benefit li{
+    padding: 10px;
+    font-size: 20px;
+  }
+  #terms a{
+    
+    color: rgb(83, 79, 79);
+    text-underline-position: below;
+  }
+  .next{
+    margin-left: px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .next a{
+    text-decoration: none;
+    padding: 20px 80px 20px 100px;
+    color: #fff;
+  }
+
+/* 
+  section 5 body */
+
+
+  .sec5{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 100px;
+    margin-top: 50px;
+  }
+  #started{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+  
+  }
+  #started a{
+    text-decoration: none;
+    color: #fff;
+  }
+  #sign{
+    text-decoration: none;
+    color: rgb(94, 86, 86);
+  }
+
+
+/* section 8 body */
+
+.sec8 h2{
+
+background-color: #d1c9c9;
+padding: 40px 100px 40px 50px;
+
+}
+
+
+  
+.apps{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.app{
+display: flex;
+}
+
+
+
+
+  .footer{
+    background-color: black;
+    color: #fff;
+    height: 90vh;
+    width: 100vw;
+  }
+  .comp{
+    display: flex;
+justify-content: space-around;
+  }
+  .logo{
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo a:hover{
+    background-color: grey;
+    padding: 5px;
+  }
+  a:hover{
+    background-color: #8d8787;
+  }

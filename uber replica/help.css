@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.uber{
+    background-color: black;
+    height: 5vh;
+    padding-top:20px;
+}
+.uber a:hover{
+ 
+    text-decoration: underline;
+}
+.help{
+    background-color: #fff;
+    height: 5vh;
+    border-bottom: 1px solid rgb(177, 173, 173);
+    padding-top:20px;
+}
+.uber a{
+    margin-left: 150px;
+}
+.help a{
+    margin-left: 100px;
+}
+.body{
+    margin-top: 5%;
+   margin-left:25%;
+   font-size: 60px;
+}
+.content{
+    margin-left: 25%;
+    font-size:20px ;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-bottom: 10px;
+}
+
+
+
+.footer{
+    background-color: black;
+    color: #fff;
+    height: 90vh;
+    width: 100vw;
+  }
+  .comp{
+    display: flex;
+justify-content: space-around;
+  }
+  .logo{
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo a:hover{
+    background-color: grey;
+    padding: 5px;
+  }
+  a:hover{
+    background-color: #8d8787;
+  }
